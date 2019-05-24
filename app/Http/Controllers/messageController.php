@@ -41,9 +41,9 @@ class messageController extends Controller
     public function store(Request $request)
     {
             $mensagens = array(
-                'titulo.required' => 'É obrigatório atribuir um título para a mensagem',
-                'texto.required' => 'É obrigatória atribuir uma descrição para a mensagem',
-                'autor.required' => 'É obrigatório atribuir um autor para a mensagem',
+                'titulo.required' => 'É obrigatório um título para a mensagem',
+                'texto.required' => 'É obrigatória uma descrição para a mensagem',
+                'autor.required' => 'É obrigatório um autor para a mensagem',
             );
 
             $regras = array(
